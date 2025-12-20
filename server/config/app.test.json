@@ -1,0 +1,4 @@
+{
+  "database": { "logger": false },
+  "rateLimit": { "limit": 1000000 }
+}

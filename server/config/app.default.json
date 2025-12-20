@@ -1,0 +1,36 @@
+{
+  "service": {
+    "name": "Course Management Platform",
+    "version": "1.0.0",
+    "description": "Software Engineering Case Practice Course Management Platform"
+  },
+  "server": {
+    "port": 3000,
+    "cors": {
+      "originRegex": "localhost:\\d+$"
+    }
+  },
+  "security": {
+    "jwt": {
+      "secret": "",
+      "exp": "7d"
+    },
+    "csrf": {
+      "enabled": true
+    }
+  },
+  "rateLimit": {
+    "windowMs": 60000,
+    "limit": 120
+  },
+  "database": {
+    "url": "sqlite.db",
+    "logger": true
+  },
+  "storage": {
+    "root": "storage"
+  },
+  "admin": {
+    "bootstrap": true
+  }
+}

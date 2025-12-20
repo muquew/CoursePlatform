@@ -1,0 +1,4 @@
+.trae/
+client/coverage/
+server/sqlite.db
+*.zip

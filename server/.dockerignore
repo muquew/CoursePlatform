@@ -1,0 +1,11 @@
+node_modules
+coverage
+.git
+.gitignore
+.env
+.env.*
+dist
+out
+*.tgz
+_archive
+storage
